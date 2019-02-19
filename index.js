@@ -1,5 +1,8 @@
-function takeANumber(line, name) {
- line.push(name);
+function takeANumber(line) {
+ line.push(number);
+ var number = 0;
+ return `Welcome Carlos you are ticker number ${number+1}`;
+} 
 
 function nowServing(katzDeli) {
 if (katzDeli.length === 0) {
