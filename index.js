@@ -1,7 +1,7 @@
+var number = 1;
 function takeANumber(line) {
  line.push(number);
- var number = 0;
- return `Welcome Carlos you are ticker number ${number+1}`;
+ return `Welcome Carlos you are ticker number ${number++}`;
 } 
 
 function nowServing(katzDeli) {
